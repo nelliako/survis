@@ -1,5 +1,6 @@
-const userDefinedTagCategories = {
-	"type": {
-		"description": "type of the paper"
-	}
-}
+var userDefinedTagCategories = {
+    "group": { "description": "Literature Groups" },
+    "method": { "description": "Technical Approach" },
+    "data": { "description": "Data Modality" },
+    "goal": { "description": "Clinical Goal" }
+};

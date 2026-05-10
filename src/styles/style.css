@@ -482,3 +482,14 @@ a:visited {
     background: var(--errorBgColor);
     border: var(--errorBorder);
 }
+
+/* Hide the paper thumbnail image in the entry list */
+.entry_img {
+    display: none !important;
+}
+
+/* Adjust the text margin so it fills the empty space */
+.entry_content {
+    margin-left: 0 !important;
+}
+

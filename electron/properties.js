@@ -30,6 +30,9 @@ var stylesDir = '../src/styles/';
  * @type {{field: string, title: string, minTagFrequency: number}[]}
  */
 var tagCloudOptions = [{
+    field: 'group',   // Added this line
+    title: 'Groups',  // Added this line
+}, {
     field: 'keywords',
     title: 'Keywords',
 }, {
